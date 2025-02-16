@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Terapias Holisticas</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Playfair+Display:wght@400;700&family=Quicksand:wght@300;400;700&display=swap"
+    rel="stylesheet">
+  <link rel="icon" href="./img/imagesReiky.jpg" type="image/jpg">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<!--Menu Principal-->
+
+<body>
+  <header>
+    <nav>
+      <div>
+        <h2 class="title-logo">KALMA</h2>
+      </div>
+      <div class="menu-toggle" id="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <ul class="nav-links" id="nav-links">
+
+        <li><a href="#Inicio" id="Inicio">Inicio</a></li>
+        <li class="dropdown">
+          <a href="#Terapias" id="terapias-toggle">Terapias ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="./barrasDeAccess.html">Barras de Access</a></li>
+            <li><a href="./reiki.html" id="reiki-toggle">Reiki</a></li>
+            <li><a href="./constelaciones.html">Constelaciones Familiares</a></li>
+            <li><a href="./regresion.html">Terapia de Vidas Pasadas</a></li>
+          </ul>
+        </li>
+        <li><a href="#Contacto">Contacto</a></li>
+        <li><a href="./Terapeuta.html">Terapeuta</a></li>
+      </ul>
+    </nav>
+  </header>
+  <a href="https://wa.me/3517654446" class="whatsapp-float" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="WhatsApp">
+  </a>
+
+  <!--Info Principal-->
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Terapias Holisticas <span>KALMA</span></h1>
+      <p>Descubre un mundo de bienestar donde cada detalle está pensado para tu relajación y armonía.
+        En mi consultorio, he creado un ambiente armonioso y acogedor donde el bienestar y la sanación
+        son la prioridad.
+        Aquí, te ofrezco terapias como Barras de Access, Reiki, Constelaciones Familiares y Terapia de Vidas
+        Pasadas, todas enfocadas en liberar bloqueos emocionales, restaurar la energía y promover el bienestar
+        integral.Mi objetivo es guiarte en un viaje de autoconocimiento y sanación, ayudándote a
+        reconectar con tu esencia y alcanzar una vida más plena y en armonía.
+      </p>
+    </div>
+    <div class="hero-img">
+      <img src="./img/barras-de-access-131653.jpeg" alt="imgReiky">
+    </div>
+  </section>
+
+  <!--Seccion Tarjetas-->
+
+  <main id="portfolio" class="portfolio">
+    <div class="contenido-seccion">
+      <h2>Terapias Holisticas <span>KALMA</span></h2>
+      <p class="parrafo">Una nueva solución
+        para tu salud
+        que va a la raíz
+        de tus síntomas. </p>
+      <div class="galeria">
+
+        <div class="proyecto">
+          <img src="./img/imagesBarraAccess2.jpg" alt="img_barrasDeAccess">
+          <div class="overlay">
+            <h3>Barra De Access</h3>
+            <p>Terapia energética que consiste en tocar suavemente 32 puntos en la cabeza para liberar bloqueos
+              emocionales</p>
+          </div>
+        </div>
+
+        <div class="proyecto">
+          <img src="./img/imagesConstFliares2.jpg" alt="img_const">
+          <div class="overlay">
+            <h3>Constelaciones Familiares</h3>
+            <p>Busca identificar y sanar patrones familiares inconscientes que pueden
+              estar afectando la vida de una persona.</p>
+          </div>
+        </div>
+        <div class="proyecto">
+          <img src="./img/imagesVidasPasadas2.jpg" alt="img_vidasPasadas">
+          <div class="overlay">
+            <h3>Vidas Pasadas</h3>
+            <p>técnica que busca acceder a recuerdos o experiencias de vidas anteriores para comprender problemas
+              actuales.</p>
+          </div>
+        </div>
+        <div class="proyecto">
+          <img src="./img/imagesReiky2.jpg" alt="img_reiki">
+          <div class="overlay">
+            <h3>Reiki</h3>
+            <p>Es una técnica de origen japonés en la que el terapeuta canaliza energía a través
+              de sus manos para equilibrar el cuerpo</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <section>
+    <div class="comments-container">
+      <div class="comment-card">
+        <p class="user-name">Luisa Martínez</p>
+        <p class="user-comment">"Este blog me ayudó a entender mucho sobre la meditación. ¡Gracias!"</p>
+      </div>
+
+      <div class="comment-card">
+        <p class="user-name">Pedro Gómez</p>
+        <p class="user-comment">"Muy interesante. Definitivamente lo recomendaré a mis amigos."</p>
+      </div>
+
+      <div class="comment-card">
+        <p class="user-name">Carla Ruiz</p>
+        <p class="user-comment">"Las terapias de relajación que mencionan aquí son increíbles."</p>
+      </div>
+
+      <div class="comment-card">
+        <p class="user-name">Luis Torres</p>
+        <p class="user-comment">"Gran contenido. Estoy ansioso por probar algunas técnicas que aprendí."</p>
+      </div>
+
+      <div class="comment-card">
+        <p class="user-name">Marta Jiménez</p>
+        <p class="user-comment">"Muy bien explicado y fácil de entender. Excelente trabajo."</p>
+      </div>
+
+      <div class="comment-card">
+        <p class="user-name">Carlos Vázquez</p>
+        <p class="user-comment">"No sabía que las terapias holísticas eran tan efectivas. ¡Muy buen artículo!"</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!--   - SECCION CONTACTO -->
+  <section id="Contacto" class="contacto">
+    <div class="contenido-seccion">
+      <h2>Contactame y Reserva tu Turno</h2>
+      <div class="fila">
+        <!-- Formulario -->
+        <div class="col">
+          <input type="text" id="nombre" placeholder="Tú Nombre">
+          <input type="text" id="telefono" placeholder="Número telefónico">
+          <input type="text" id="correo" placeholder="Dirección de correo">
+          <input type="text" id="tema" placeholder="Tema">
+          <textarea id="mensaje" cols="30" rows="9" placeholder="Mensaje"></textarea>
+
+          <label for="fecha">Selecciona un día:</label>
+          <input type="date" id="fecha" name="fecha" min="">
+
+          <label for="hora">Selecciona una hora:</label>
+          <input type="time" id="hora" name="hora">
+
+
+          <button id="enviar-mensaje">
+            Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+            <span class="overlay"></span>
+          </button>
+        </div>
+        <!-- Mapa -->
+        <div class="col">
+          <div class="info">
+            <ul>
+              <li>
+                <i class="fa-solid fa-location-dot"></i>
+                Isasa 1880 - Cordoba Capital.
+              </li>
+              <li>
+                <i class="fa-solid fa-mobile-screen"></i>
+                Llamame: 3517-654446
+              </li>
+              <li>
+                <i class="fa-solid fa-envelope"></i>
+                Email: programandodsp@gmail.com
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!----------------------------------------FIN CONTACTO-->
+  <!------------------------------------------TURNERO---------------------------------------->
+  <section id="turnero" class="turnero">
+    <p class="parrafo-turnero">"Reserva tu turno y comienza tu transformación"
+
+      En las terapias holísticas, cada sesión es un paso hacia el bienestar integral. Ya sea que busques armonizar tu
+      energía, aliviar tensiones o simplemente encontrar un espacio de <span class="span-parrafo"> KALMA </span>,
+      agendar tu turno te permitirá
+      conectar con
+      el equilibrio que necesitas.
+
+      Reserva ahora y da el primer paso hacia una vida más plena y consciente. ¡Tu bienestar te espera!</p>
+    <div class="contenido-seccion-turnero">
+      <div class="calendario-container">
+        <img
+          src="./img/96768711-fisioterapeuta-está-haciendo-terapia-craneosacral-en-una-camilla-sobre-fondo-blanco-cuidado-de-la.jpg"
+          alt="">
+      </div>
+    </div>
+  </section>
+  <footer>
+    <a href="#Inicio" class="arriba">
+      <i class="fa-solid fa-angles-up"></i>
+    </a>
+    <div class="redes">
+      <a href="https://linkedin.com/in/diego-piazza-030366297" target="_blank"><i
+          class="fa-brands fa-linkedin-in"></i></a>
+      <a href="https://instagram.com/diegopiazza20" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://github.com/orgs/DiegoPiazza/repositories" target="_blank"><i class="fa-brands fa-github"></i></a>
+      <p class="parrafo-footer">&copy;Derechos de autor 2025 | Todos los derechos reservados |
+        programandodsp@gmail.com
+        Creador.</p>
+
+    </div>
+  </footer>
+
+
+  <script src="./app.js"></script>
+</body>
+
+</html>
+
+
+
+<!--Barras de Access
+//Barras de accsess, Reiki, Constelaciones Familiares, Terapia de vidas pasadas.
+Es una terapia energética que consiste en tocar suavemente 32 puntos en la cabeza para liberar bloqueos emocionales, pensamientos limitantes y creencias negativas. Se cree que ayuda a reducir el estrés, la ansiedad y mejorar la claridad mental.
+Reiki
+
+Es una técnica de sanación energética de origen japonés en la que el terapeuta canaliza energía a través de sus manos para equilibrar el cuerpo, la mente y el espíritu. Se usa para aliviar el estrés, mejorar el bienestar emocional y fomentar la sanación natural del cuerpo.
+Constelaciones Familiares
+
+Es un enfoque terapéutico que busca identificar y sanar patrones familiares inconscientes que pueden estar afectando la vida de una persona. A través de una representación simbólica, se trabaja en la reconciliación y el equilibrio dentro del sistema familiar.
+Terapia de Vidas Pasadas
+
+Es una técnica que busca acceder a recuerdos o experiencias de vidas anteriores para comprender problemas actuales, bloqueos emocionales o traumas no resueltos. Se basa en la idea de que el alma guarda memorias que pueden influir en la vida presente y, al traerlas a la conciencia, se pueden sanar.-->
+
+<!--1. Información Relevante sobre las Terapias
+
+    Explicaciones claras y detalladas sobre las terapias que ofreces.
+    Beneficios y casos en los que pueden ser útiles.
+    Diferencias entre cada una y cómo elegir la adecuada.
+
+2. Experiencias y Testimonios
+
+    Relatos de personas que han experimentado cambios positivos.
+    Casos de éxito (sin comprometer la privacidad de los pacientes).
+
+3. Consejos de Bienestar y Autocuidado
+
+    Técnicas de relajación y meditación.
+    Hábitos para mantener un equilibrio energético.
+    Recomendaciones para reducir el estrés y mejorar la calidad de vida.
+
+4. Preguntas Frecuentes (FAQ)
+
+    ¿Cómo funciona cada terapia?
+    ¿Cuántas sesiones se necesitan?
+    ¿Hay contraindicaciones?
+
+5. Artículos sobre Desarrollo Personal y Espiritualidad
+
+    Cómo identificar bloqueos emocionales.
+    La importancia de la energía en el bienestar.
+    Crecimiento personal a través de las terapias alternativas.
+
+6. Eventos y Talleres
+
+    Fechas de cursos, sesiones grupales o charlas informativas.
+    Información sobre cómo inscribirse y participar.
+
+7. Contacto y Formas de Agendar una Sesión
+
+    Datos de contacto (WhatsApp, email, redes sociales).
+    Horarios de atención.
+    Ubicación del consultorio.-->
+
+<!--1. Blog (Sección Principal del Blog)
+
+    Lista de artículos o publicaciones recientes.
+    Imagen destacada para cada post.
+    Extracto o resumen del artículo.
+    Enlace para leer más.
+    Categorías o etiquetas.
+    Opciones para compartir en redes sociales.
+
+2. Navbar (Barra de Navegación)
+
+    Logo de la web o nombre del sitio.
+    Menú con enlaces a:
+        Inicio
+        Blog
+        Sobre nosotros
+        Servicios (si aplica)
+        Contacto
+    Botón de registro o inicio de sesión (si aplica).
+
+3. Main (Contenido Principal de la Página)
+
+    Puede incluir una presentación con una imagen de fondo o un "hero section".
+    Un mensaje de bienvenida o una breve descripción del sitio.
+    Últimos artículos o destacados del blog.
+    Testimonios o casos de éxito (si aplica).
+
+4. Sección (Contenido Adicional)
+
+    Información específica sobre algún tema del blog.
+    Secciones de tendencias, artículos populares o recomendados.
+    Un apartado con estadísticas o datos interesantes sobre el tema del blog.
+
+5. Formulario de Contacto
+
+    Campos de entrada:
+        Nombre
+        Correo electrónico
+        Mensaje
+    Botón de enviar.
+    Información de contacto adicional (teléfono, dirección, redes sociales).
+
+6. Footer (Pie de Página)
+
+    Derechos de autor (Ejemplo: "© 2025 NombreDelSitio. Todos los derechos reservados.")
+    Enlaces rápidos (inicio, blog, contacto, términos y condiciones, privacidad).
+    Iconos de redes sociales.
+    Información de contacto o mapa de ubicación (si aplica).-->
